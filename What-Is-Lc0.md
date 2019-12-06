@@ -12,8 +12,8 @@ So what networks are available, and what are the differences between them?
 
 T nets are the main Lc0 networks.
 
-The T nets are created by playing against themselves for a fixed number of games (like 32,000).
-After looking at those games, a new network is created by adjusting the previous network based on what worked and what didn't in the games.
+The T nets are created entirely by playing against themselves for some number of games at a time and then learning from those games.
+After finishing a set of those games, a new network is created by adjusting the previous network based on what worked and what didn't in the games.
 
 There are different generations of T nets. 
 
@@ -45,3 +45,15 @@ There are many J nets, each of different sizes and different parameters. Here is
 **J48** nets are trained on T60 games.
 
 **LD2** (Little Demon 2) is a specific J net trained on T40 games.
+
+## Other Nets
+
+**Leelenstein** is [a net](https://www.patreon.com/jjosh) that is trained on a myriad of chess game databases with a myraid of training methods.
+
+**Dark Queen** is a net that is trained on the available Lichess games database.
+
+You can find more nets [here](https://github.com/LeelaChessZero/lc0/wiki/Third-Party-Nets).
+
+## What is the BEST net?
+
+That depends on what you're using the net for and the system that you are running it on. You can find [a good list here](https://github.com/AlexisOlson/lc0/wiki/Best-Lc0-Nets).
