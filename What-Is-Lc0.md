@@ -6,6 +6,10 @@ Lc0 needs a *neural network* in order to play, just as a car requires a driver, 
 The brains of Lc0, the true *player* of the engine, is the neural network that it uses.
 With a weak net, Lc0 can play as poorly as a toddler, and with a strong net, Lc0 can beat even the strongest existing chess engines.
 
+And so, if you wish to use Lc0, you need to download both Lc0 *and* a network to drive it. To get started, you can follow [the instructions found here](https://github.com/LeelaChessZero/lc0/wiki/Getting-Started).
+
+---
+
 So what networks are available, and what are the differences between them?
 
 ## T Nets
